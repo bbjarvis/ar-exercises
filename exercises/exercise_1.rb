@@ -21,4 +21,6 @@ gastown = Store.create(
   mens_apparel: false,
   womens_apparel: true)
 
-puts "#{Store.all.count} stores in database"
+def store_count
+  puts "#{Store.all.count} stores in database"
+end
