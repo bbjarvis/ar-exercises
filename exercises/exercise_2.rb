@@ -9,4 +9,3 @@ puts "----------"
 @store2 = Store.second
 
 @store1.update(name: "Abbotsford")
-puts @store2.name
